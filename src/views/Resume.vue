@@ -13,7 +13,7 @@
                             Tobias Furtlehner
                         </v-card-title>
                         <v-card-text class="body-1">
-                            <p>born on June 6th, 2002</p>
+                            <p>born on June 10th, 2002</p>
                             <p>Austria, Maria Enzersdorf</p>
                             <p>tobiasfurtlehner@hotmail.com</p>
                         </v-card-text>
@@ -23,7 +23,7 @@
         </v-container>
 
         <!-- Education -->
-        <v-parallax src="/classroom2.jpg" class="section" height="800">
+        <v-parallax src="/education.jpg" class="section" height="800">
             <h1 class="lax display-4 text-center educationheadline" data-lax-preset="fadeIn">Education</h1>
             <v-layout row wrap justify-space-around class="lax" data-lax-preset="rightToLeft-.05">
                 <v-flex xs12 md3>
@@ -56,35 +56,82 @@
         </v-parallax>
 
         <!-- Work Experience -->
-        <v-parallax src="/work6.jpg" class="section" height="800">
+        <v-parallax src="/work.jpg" class="section" height="800">
             <h1 class="lax display-4 text-center educationheadline black--text" data-lax-preset="fadeIn">Work Experience
             </h1>
             <v-layout row wrap justify-space-around class="lax" data-lax-preset="rightToLeft-.05">
                 <v-flex xs12 md3>
                     <v-card shaped>
                         <v-card-title class="headline">
-                            BG/BRG Keimgasse
+                            ms.gis
                         </v-card-title>
                         <v-card-subtitle>
-                            Modellklasse
+                            Developing Geodata Game
                         </v-card-subtitle>
                         <v-card-text>
-                            09-2012 - 06/2015
+                            July, 2016
                         </v-card-text>
                     </v-card>
                 </v-flex>
                 <v-flex xs12 md3>
                     <v-card shaped>
                         <v-card-title class="headline">
-                            HTBLVA Spengergasse
+                            ms.gis
                         </v-card-title>
                         <v-card-subtitle>
-                            IT Department
+                            Redesigning Database Access
                         </v-card-subtitle>
                         <v-card-text>
-                            since September 2015
+                            July, 2017
                         </v-card-text>
                     </v-card>
+                </v-flex>
+            </v-layout>
+        </v-parallax>
+
+        <!-- International Experiences Header-->
+        <v-container>
+            <h1 class="lax display-4 text-center educationheadline black--text" data-lax-preset="fadeIn">
+                International
+                Experiences
+            </h1>
+        </v-container>
+
+        <!-- America -->
+        <v-parallax src="/international-experience.jpeg" class="section" height="800">
+            <v-layout row wrap justify-space-around>
+                <v-flex xs12 md6>
+                    <h1 class="lax display-2 exchangeyeartext text--center white--text" data-lax-preset="fadeIn">
+                        Exchangeyear <br /> in <br /> America
+                    </h1>
+                </v-flex>
+                <!-- Placeholder to align the text above to the left-->
+                <v-flex md6>
+
+                </v-flex>
+            </v-layout>
+            <v-layout row wrap justify-space-around>
+                <v-flex xs12 md5>
+                    <v-card shaped elevation-50>
+                        <v-card-title class="headline">
+                            Birmingham Community Charter High School
+                        </v-card-title>
+                        <v-card-subtitle class="subtitle-2">
+                            Los Angeles, California
+                        </v-card-subtitle>
+                        <v-card-text>
+                            <p>Lived with a host family</p>
+                            <p>Graduated with a 3.9 GPA</p>
+                            <p>Went to Playoffs in Boys Volleyball</p>
+                            <p>Achieved perfect Attendence</p>
+                        </v-card-text>
+                    </v-card>
+                </v-flex>
+                <v-flex xs12 md6>
+                    <v-img class="lax graduation-pic" data-lax-preset="rightToLeft-1.35 blurInOut fadeInOut"
+                        src="/graduation.jpeg" width="400pt" height="250pt">
+
+                    </v-img>
                 </v-flex>
             </v-layout>
         </v-parallax>
@@ -125,6 +172,11 @@
         margin-bottom: 115pt;
     }
 
+    .exchangeyeartext {
+        margin-top: 60pt;
+        text-align: center;
+    }
+
     .profile-pic {
         box-shadow: 3px 3px 5px 1px rgba(99, 99, 99, 0.7);
         border-radius: 2pt;
@@ -133,15 +185,9 @@
         margin: auto;
     }
 
-    .parallax-mirror,
-    #vurtUnderlay {
-        height: auto !important;
-        width: 100% !important;
-        padding: 45% 0 0;
-    }
-
-    .parallax-mirror img {
-        width: 100% !important;
-        height: 100% !important
+    .graduation-pic {
+        margin-left: 600pt;
+        box-shadow: 3px 3px 10px 1px rgba(99, 99, 99, 0.7);
+        border-radius: 5pt;
     }
 </style>
